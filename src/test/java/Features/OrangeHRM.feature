@@ -23,3 +23,9 @@ Feature: Test OrangeHRM application using BDD Framework
       | Shloka    | Deepak     | Shinde   |
       | Mayara    | Amit       | Shah     |
       | Rajvansh  | Sandeep    | gupta    |
+
+      
+      Scenario: Validate Admin Page
+      Given user click on Admin link
+      Then validate User on Admin Page
+      And validate Url
